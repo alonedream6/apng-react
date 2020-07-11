@@ -116,7 +116,7 @@ Painter.prototype.change = function (index, isSmooth = false) {
     }
     const currSourceIndex = index >= this.totalSource ? this.currSourceIndex : index;
     if (isSmooth) {
-        this.smoother.changeStatus = this.smoother.changeStatus;
+        this.smoother.status = this.smoother.changeStatus;
     } else {
         // 清除play，并重新初始化当前各资源状态
         cancelAnimationFrame(this.raf);
