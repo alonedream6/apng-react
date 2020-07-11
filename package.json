@@ -1,12 +1,25 @@
 {
-  "name": "react-apng",
-  "version": "1.0.0",
+  "name": "apng-react",
+  "version": "1.1.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alonedream6/apng-react.git"
+  },
+  "author": "alonedream",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alonedream6/apng-react/issues"
+  },
+  "homepage": "https://github.com/alonedream6/apng-react#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "devDependencies": {
+  }
 }
