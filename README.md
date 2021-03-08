@@ -2,17 +2,17 @@
 
 ### install
 
-```
-    npm install --save apng-react
+```shell
+npm install --save apng-react
 ```
 ### use
 
-```
-    import Apng from 'apng-react';
-    import image from './a.png';
-    function App() {
-        return <Apng src={image} />
-    }
+```javascript
+import Apng from 'apng-react';
+import image from './a.png';
+function App() {
+    return <Apng src={image} />
+}
 ```
 
 ### props
